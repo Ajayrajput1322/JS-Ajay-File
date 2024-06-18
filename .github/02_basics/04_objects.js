@@ -49,3 +49,36 @@ console.log(object.values(tinderuser));
 console.log(object.entries(tinderuser));
 
 console.log(tinderUser.hasownproperty('isLoggedin'));
+
+
+
+
+
+
+const course = {
+    coursename: "js in hindi",
+    price: "999", 
+    courseInstructor: "ajay"
+ }
+ 
+ // course.courseInstructor
+ 
+ const {courseInstructor: instructor} = course
+ 
+ // console.log(courseInstructor);
+ console.log(instructor);
+ 
+ 
+ //*JSON **********************/ /
+ 
+ // {
+ //   "name": "ajay",
+ //  "coursename": "js with Ajay",
+ //   "price": "free"
+ //}
+ 
+ [
+     {},
+     {},
+     {}
+ ]
